@@ -1,0 +1,1564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blue Orchid Restaurant | Fine Dining & Authentic Flavours</title>
+  <meta name="description" content="Welcome to Blue Orchid Restaurant. Experience exceptional culinary craftsmanship, authentic recipes, fresh ingredients, and warm hospitality in an elegant dining setting.">
+  <meta name="keywords" content="Blue Orchid Restaurant, fine dining, Indian cuisine, biryani, family restaurant, table reservation, NRK Digitals demo">
+  <meta name="author" content="NRK Digitals">
+  
+  <!-- Open Graph / Meta Tags for Sharing -->
+  <meta property="og:title" content="Blue Orchid Restaurant — A Taste of Happiness, Served Fresh">
+  <meta property="og:description" content="Discover delicious flavours, freshly prepared dishes, and memorable dining experiences at Blue Orchid Restaurant.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#123B66">
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23123B66'/><path d='M50 22 C42 35 28 42 28 55 C28 67 38 76 50 76 C62 76 72 67 72 55 C72 42 58 35 50 22 Z' fill='%232878B5'/><circle cx='50' cy='52' r='9' fill='%23FFFFFF'/></svg>">
+
+  <!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Demo Bar -->
+  <div class="top-announcement-bar" role="region" aria-label="Demo Announcement">
+    <div class="container announcement-content">
+      <span class="announcement-badge"><i class="fa-solid fa-sparkles"></i> NRK Digitals Demo</span>
+      <p class="announcement-text">
+        Premium Restaurant Website Demo &bull; 
+        <span class="highlight">Lunch &amp; Dinner:</span> 11:30 AM – 11:00 PM Daily &bull; 
+        <a href="#reservation" class="announcement-link">Table Bookings Open <i class="fa-solid fa-arrow-right"></i></a>
+      </p>
+      <div class="top-contact-quick">
+        <a href="tel:+919876543210" aria-label="Call restaurant"><i class="fa-solid fa-phone"></i> +91 98765 43210</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="main-header" id="mainHeader">
+    <nav class="navbar container" aria-label="Main Navigation">
+      <!-- Logo Branding -->
+      <a href="#home" class="brand-logo" aria-label="Blue Orchid Restaurant Home">
+        <span class="logo-icon-wrap">
+          <i class="fa-solid fa-utensils"></i>
+        </span>
+        <div class="logo-text-group">
+          <span class="logo-title">Blue Orchid</span>
+          <span class="logo-subtitle">RESTAURANT &amp; DINING</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-item active">Home</a></li>
+        <li><a href="#about" class="nav-item">About</a></li>
+        <li><a href="#specials" class="nav-item">Specials</a></li>
+        <li><a href="#menu" class="nav-item">Menu</a></li>
+        <li><a href="#why-us" class="nav-item">Why Us</a></li>
+        <li><a href="#gallery" class="nav-item">Gallery</a></li>
+        <li><a href="#reviews" class="nav-item">Reviews</a></li>
+        <li><a href="#contact" class="nav-item">Contact</a></li>
+        <li class="mobile-cta-item">
+          <a href="#reservation" class="btn btn-primary btn-nav-cta">
+            <i class="fa-regular fa-calendar-check"></i> Reserve a Table
+          </a>
+        </li>
+      </ul>
+
+      <!-- Right Header Actions -->
+      <div class="header-actions">
+        <a href="#reservation" class="btn btn-primary btn-reserve-desktop">
+          <i class="fa-regular fa-calendar-check"></i> Reserve a Table
+        </a>
+        <!-- Mobile Hamburger Toggle -->
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="navLinks">
+          <span class="bar bar-1"></span>
+          <span class="bar bar-2"></span>
+          <span class="bar bar-3"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 4. Hero Section -->
+    <section class="hero-section" id="home" aria-label="Welcome to Blue Orchid">
+      <div class="hero-bg-overlay"></div>
+      <div class="container hero-content">
+        <div class="hero-text-block">
+          <div class="hero-pill-badge">
+            <i class="fa-solid fa-award"></i> Premium Dining Experience
+          </div>
+          <h1 class="hero-title">
+            A Taste of Happiness, <br><span class="hero-highlight">Served Fresh.</span>
+          </h1>
+          <p class="hero-description">
+            Discover delicious flavours, freshly prepared dishes, and memorable dining experiences. Handcrafted recipes made with passion, authentic spices, and the warmest hospitality.
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="hero-cta-group">
+            <a href="#menu" class="btn btn-primary btn-large">
+              <i class="fa-solid fa-book-open"></i> Explore Our Menu
+            </a>
+            <a href="#reservation" class="btn btn-outline btn-large">
+              <i class="fa-regular fa-calendar-plus"></i> Book a Table
+            </a>
+          </div>
+
+          <!-- Trust Line Banner -->
+          <div class="hero-trust-bar">
+            <span class="trust-item"><i class="fa-solid fa-circle-check"></i> Fresh Ingredients</span>
+            <span class="trust-divider">&bull;</span>
+            <span class="trust-item"><i class="fa-solid fa-heart"></i> Great Taste</span>
+            <span class="trust-divider">&bull;</span>
+            <span class="trust-item"><i class="fa-solid fa-smile"></i> Warm Hospitality</span>
+          </div>
+        </div>
+
+        <!-- Hero Highlights Box -->
+        <div class="hero-feature-card">
+          <div class="feature-card-header">
+            <span class="rating-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span>
+            <span class="rating-score">4.9 / 5.0</span>
+          </div>
+          <p class="feature-card-quote">"The culinary perfection, soothing ambiance, and attentive service make Blue Orchid our favorite family restaurant."</p>
+          <div class="feature-card-footer">
+            <div class="badge-chip"><i class="fa-solid fa-clock"></i> 11:30 AM – 11:00 PM</div>
+            <div class="badge-chip"><i class="fa-solid fa-shield-halved"></i> 100% Hygienic</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. About the Restaurant Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <!-- Left: Image Composition with Decorative Badges -->
+          <div class="about-image-col">
+            <div class="image-stack">
+              <img 
+                src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80" 
+                alt="Blue Orchid Restaurant elegant dining interior" 
+                class="about-img-main"
+                loading="lazy"
+                onerror="this.src='https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=900&q=80';"
+              >
+              <div class="about-experience-card">
+                <span class="exp-number">100%</span>
+                <span class="exp-text">Fresh Daily Preparation &amp; Culinary Passion</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Text Content & Highlights -->
+          <div class="about-text-col">
+            <div class="section-tag">
+              <i class="fa-solid fa-leaf"></i> Welcome to Blue Orchid
+            </div>
+            <h2 class="section-title">Good Food. Great Moments.</h2>
+            <p class="lead-text">
+              At Blue Orchid Restaurant, we believe that great dining is more than just a meal — it is an unforgettable celebration of aroma, taste, and connection with the people you cherish.
+            </p>
+            <p class="body-text">
+              From our sizzling tandoori starters and aromatic slow-cooked biryanis to our rich homestyle curries and artisanal desserts, each dish is freshly made to order using time-honoured techniques and hand-selected spices. Whether you are planning an intimate dinner, a family gathering, or a festive celebration, our doors are always open to welcome you.
+            </p>
+
+            <!-- Three Key Highlights -->
+            <div class="about-highlights-grid">
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <i class="fa-solid fa-seedling"></i>
+                </div>
+                <div class="highlight-info">
+                  <h4>Fresh Ingredients</h4>
+                  <p>Hand-picked farm vegetables, cold-pressed spices, and supreme quality cuts sourced fresh each morning.</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <i class="fa-solid fa-kitchen-set"></i>
+                </div>
+                <div class="highlight-info">
+                  <h4>Expert Chefs</h4>
+                  <p>Masterful culinary artisans who preserve authentic heritage recipes while perfecting modern presentation.</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <i class="fa-solid fa-champagne-glasses"></i>
+                </div>
+                <div class="highlight-info">
+                  <h4>Comfortable Dining</h4>
+                  <p>Spacious, climate-controlled seating designed for serene family dinners, dates, and celebratory feasts.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Fictional Demo Note -->
+            <div class="demo-notice-inline">
+              <i class="fa-solid fa-circle-info"></i>
+              <span><strong>Fictional Demo Showcase:</strong> Created by NRK Digitals to present a high-converting website concept for restaurant owners.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Special Dishes Section -->
+    <section class="section specials-section" id="specials">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag"><i class="fa-solid fa-fire"></i> Chef's Selection</div>
+          <h2 class="section-title">Signature Special Dishes</h2>
+          <p class="section-subtitle">
+            Hand-curated favorites prepared with our chef's signature spice blends and culinary flair.
+          </p>
+        </div>
+
+        <div class="specials-grid">
+          <!-- Special 1 -->
+          <article class="special-card">
+            <div class="special-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=800&q=80" 
+                alt="Royal Tandoori Paneer Tikka Platter" 
+                class="special-img"
+                loading="lazy"
+                onerror="this.src='https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80';"
+              >
+              <span class="special-badge badge-signature"><i class="fa-solid fa-crown"></i> Chef's Signature</span>
+              <div class="diet-tag veg-tag" title="Vegetarian Dish">
+                <span class="diet-indicator"></span>
+              </div>
+            </div>
+            <div class="special-body">
+              <div class="special-title-row">
+                <h3 class="special-name">Royal Tandoori Paneer Tikka</h3>
+                <span class="special-price">₹290</span>
+              </div>
+              <p class="special-desc">
+                Cottage cheese cubes marinated in Kashmiri chili, hung yogurt, roasted cumin, and grilled to smoky perfection in our clay oven.
+              </p>
+              <div class="special-footer">
+                <span class="taste-profile"><i class="fa-solid fa-pepper-hot"></i> Medium Spicy</span>
+                <button 
+                  class="btn btn-outline-primary btn-sm btn-order-wa" 
+                  data-dish="Royal Tandoori Paneer Tikka" 
+                  data-price="290"
+                  aria-label="Order Royal Tandoori Paneer Tikka on WhatsApp"
+                >
+                  <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Special 2 -->
+          <article class="special-card">
+            <div class="special-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=800&q=80" 
+                alt="Hyderabadi Chicken Dum Biryani" 
+                class="special-img"
+                loading="lazy"
+                onerror="this.src='https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=800&q=80';"
+              >
+              <span class="special-badge badge-bestseller"><i class="fa-solid fa-fire-flame-curved"></i> Bestseller</span>
+              <div class="diet-tag non-veg-tag" title="Non-Vegetarian Dish">
+                <span class="diet-indicator"></span>
+              </div>
+            </div>
+            <div class="special-body">
+              <div class="special-title-row">
+                <h3 class="special-name">Hyderabadi Chicken Dum Biryani</h3>
+                <span class="special-price">₹380</span>
+              </div>
+              <p class="special-desc">
+                Long-grain aged basmati rice cooked on slow flame (dum) with tender chicken cuts, saffron, fried onions, and fresh mint leaves.
+              </p>
+              <div class="special-footer">
+                <span class="taste-profile"><i class="fa-solid fa-clock"></i> Slow Cooked</span>
+                <button 
+                  class="btn btn-outline-primary btn-sm btn-order-wa" 
+                  data-dish="Hyderabadi Chicken Dum Biryani" 
+                  data-price="380"
+                  aria-label="Order Hyderabadi Chicken Dum Biryani on WhatsApp"
+                >
+                  <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Special 3 -->
+          <article class="special-card">
+            <div class="special-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80" 
+                alt="Sizzling Chocolate Walnut Brownie" 
+                class="special-img"
+                loading="lazy"
+                onerror="this.src='https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800&q=80';"
+              >
+              <span class="special-badge badge-popular"><i class="fa-solid fa-heart"></i> Crowd Favorite</span>
+              <div class="diet-tag veg-tag" title="Vegetarian Dish">
+                <span class="diet-indicator"></span>
+              </div>
+            </div>
+            <div class="special-body">
+              <div class="special-title-row">
+                <h3 class="special-name">Sizzling Chocolate Brownie</h3>
+                <span class="special-price">₹210</span>
+              </div>
+              <p class="special-desc">
+                Warm artisanal walnut brownie served on a sizzling hot plate, crowned with rich vanilla gelato and drenched in molten dark chocolate.
+              </p>
+              <div class="special-footer">
+                <span class="taste-profile"><i class="fa-solid fa-ice-cream"></i> Sweet Delight</span>
+                <button 
+                  class="btn btn-outline-primary btn-sm btn-order-wa" 
+                  data-dish="Sizzling Chocolate Brownie" 
+                  data-price="210"
+                  aria-label="Order Sizzling Chocolate Brownie on WhatsApp"
+                >
+                  <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11. Why Choose Us Section -->
+    <section class="section why-us-section" id="why-us">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag"><i class="fa-solid fa-award"></i> The Blue Orchid Standard</div>
+          <h2 class="section-title">Why Dine With Us?</h2>
+          <p class="section-subtitle">
+            Every dining experience is crafted with meticulous attention to taste, freshness, and hospitality.
+          </p>
+        </div>
+
+        <div class="why-us-grid">
+          <!-- Card 1 -->
+          <div class="why-card">
+            <div class="why-icon-box">
+              <i class="fa-solid fa-bowl-hot"></i>
+            </div>
+            <h3 class="why-card-title">Freshly Prepared Food</h3>
+            <p class="why-card-text">
+              We never cut corners with pre-cooked gravies or frozen batches. Every order is freshly prepared on the stove for optimal aroma and flavor.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="why-card">
+            <div class="why-icon-box">
+              <i class="fa-solid fa-seedling"></i>
+            </div>
+            <h3 class="why-card-title">Quality Ingredients</h3>
+            <p class="why-card-text">
+              From pure farm-fresh dairy and cold-pressed cooking oils to fragrant aged basmati rice and authentic spices, we use only premium ingredients.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="why-card">
+            <div class="why-icon-box">
+              <i class="fa-solid fa-bell-concierge"></i>
+            </div>
+            <h3 class="why-card-title">Friendly Service</h3>
+            <p class="why-card-text">
+              Our courteous floor team is trained to deliver prompt, respectful, and attentive service to make every dining moment seamless.
+            </p>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="why-card">
+            <div class="why-icon-box">
+              <i class="fa-solid fa-users"></i>
+            </div>
+            <h3 class="why-card-title">Comfortable Family Dining</h3>
+            <p class="why-card-text">
+              A serene and elegant setting with ergonomic seating, gentle ambient music, and ample room for celebrations, birthdays, and family dinners.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Menu Section -->
+    <section class="section menu-section" id="menu">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag"><i class="fa-solid fa-book-open"></i> Taste The Magic</div>
+          <h2 class="section-title">Explore Our Delicious Menu</h2>
+          <p class="section-subtitle">
+            Crafted with passion, traditional recipes, and fresh seasonal ingredients. Filter dishes below and order directly via WhatsApp.
+          </p>
+        </div>
+
+        <!-- Category Filters -->
+        <div class="menu-filter-nav" role="tablist" aria-label="Menu categories">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">
+            <i class="fa-solid fa-utensils"></i> All Items
+          </button>
+          <button class="filter-btn" data-filter="starters" role="tab" aria-selected="false">
+            <i class="fa-solid fa-fire"></i> Starters
+          </button>
+          <button class="filter-btn" data-filter="main-course" role="tab" aria-selected="false">
+            <i class="fa-solid fa-bowl-food"></i> Main Course
+          </button>
+          <button class="filter-btn" data-filter="biryanis" role="tab" aria-selected="false">
+            <i class="fa-solid fa-bowl-rice"></i> Biryanis
+          </button>
+          <button class="filter-btn" data-filter="vegetarian" role="tab" aria-selected="false">
+            <i class="fa-solid fa-leaf"></i> Vegetarian
+          </button>
+          <button class="filter-btn" data-filter="desserts" role="tab" aria-selected="false">
+            <i class="fa-solid fa-ice-cream"></i> Desserts
+          </button>
+          <button class="filter-btn" data-filter="beverages" role="tab" aria-selected="false">
+            <i class="fa-solid fa-wine-glass"></i> Beverages
+          </button>
+        </div>
+
+        <!-- Menu Grid Container -->
+        <div class="menu-items-grid" id="menuItemsGrid">
+          
+          <!-- Dish 1: Paneer Tikka -->
+          <article class="menu-item-card" data-category="starters vegetarian">
+            <div class="menu-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=700&q=80" 
+                alt="Paneer Tikka" 
+                class="menu-card-img" 
+                loading="lazy"
+                onerror="this.src='https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=700&q=80';"
+              >
+              <div class="diet-tag veg-tag" title="Vegetarian"><span class="diet-indicator"></span></div>
+              <span class="category-badge">Starter</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="card-head">
+                <h3 class="dish-name">Paneer Tikka</h3>
+                <span class="dish-price">₹290</span>
+              </div>
+              <p class="dish-desc">Char-grilled cottage cheese cubes infused with aromatic tandoori masala, bell peppers, and onion petals.</p>
+              <div class="menu-card-action">
+                <button 
+                  class="btn btn-menu-order btn-order-wa" 
+                  data-dish="Paneer Tikka" 
+                  data-price="290"
+                  aria-label="Order Paneer Tikka on WhatsApp"
+                >
+                  <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 2: Crispy Corn -->
+          <article class="menu-item-card" data-category="starters vegetarian">
+            <div class="menu-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=700&q=80" 
+                alt="Crispy Corn Pepper Salt" 
+                class="menu-card-img" 
+                loading="lazy"
+                onerror="this.src='https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=700&q=80';"
+              >
+              <div class="diet-tag veg-tag" title="Vegetarian"><span class="diet-indicator"></span></div>
+              <span class="category-badge">Starter</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="card-head">
+                <h3 class="dish-name">Crispy Corn Pepper Salt</h3>
+                <span class="dish-price">₹240</span>
+              </div>
+              <p class="dish-desc">Golden sweet corn kernels tossed with crushed black pepper, spring greens, and a squeeze of zesty lime.</p>
+              <div class="menu-card-action">
+                <button 
+                  class="btn btn-menu-order btn-order-wa" 
+                  data-dish="Crispy Corn Pepper Salt" 
+                  data-price="240"
+                  aria-label="Order Crispy Corn Pepper Salt on WhatsApp"
+                >
+                  <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 3: Murgh Malai Tikka -->
+          <article class="menu-item-card" data-category="starters">
+            <div class="menu-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=700&q=80" 
+                alt="Murgh Malai Tikka" 
+                class="menu-card-img" 
+                loading="lazy"
+                onerror="this.src='https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&w=700&q=80';"
+              >
+              <div class="diet-tag non-veg-tag" title="Non-Vegetarian"><span class="diet-indicator"></span></div>
+              <span class="category-badge">Starter</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="card-head">
+                <h3 class="dish-name">Murgh Malai Tikka</h3>
+                <span class="dish-price">₹360</span>
+              </div>
+              <p class="dish-desc">Succulent chicken morsels marinated in fresh cream, cardamom, mild green chilies, and clay roasted.</p>
+              <div class="menu-card-action">
+                <button 
+                  class="btn btn-menu-order btn-order-wa" 
+                  data-dish="Murgh Malai Tikka" 
+                  data-price="360"
+                  aria-label="Order Murgh Malai Tikka on WhatsApp"
+                >
+                  <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 4: Paneer Butter Masala -->
+          <article class="menu-item-card" data-category="main-course vegetarian">
+            <div class="menu-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=700&q=80" 
+                alt="Paneer Butter Masala" 
+                class="menu-card-img" 
+                loading="lazy"
+                onerror="this.src='https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=700&q=80';"
+              >
+              <div class="diet-tag veg-tag" title="Vegetarian"><span class="diet-indicator"></span></div>
+              <span class="category-badge">Main Course</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="card-head">
+                <h3 class="dish-name">Paneer Butter Masala</h3>
+                <span class="dish-price">₹320</span>
+              </div>
+              <p class="dish-desc">Velvety paneer simmered in a luscious tomato and cashew nut gravy, finished with farm butter and fenugreek.</p>
+              <div class="menu-card-action">
+                <button 
+                  class="btn btn-menu-order btn-order-wa" 
+                  data-dish="Paneer Butter Masala" 
+                  data-price="320"
+                  aria-label="Order Paneer Butter Masala on WhatsApp"
+                >
+                  <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 5: Butter Chicken Classic -->
+          <article class="menu-item-card" data-category="main-course">
+            <div class="menu-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=700&q=80" 
+                alt="Butter Chicken Classic" 
+                class="menu-card-img" 
+                loading="lazy"
+                onerror="this.src='https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=700&q=80';"
+              >
+              <div class="diet-tag non-veg-tag" title="Non-Vegetarian"><span class="diet-indicator"></span></div>
+              <span class="category-badge">Main Course</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="card-head">
+                <h3 class="dish-name">Butter Chicken Classic</h3>
+                <span class="dish-price">₹390</span>
+              </div>
+              <p class="dish-desc">Tender boneless tandoori chicken cooked in an iconic silky makhani gravy enriched with rich cream and honey.</p>
+              <div class="menu-card-action">
+                <button 
+                  class="btn btn-menu-order btn-order-wa" 
+                  data-dish="Butter Chicken Classic" 
+                  data-price="390"
+                  aria-label="Order Butter Chicken Classic on WhatsApp"
+                >
+                  <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 6: Dal Makhani Royal -->
+          <article class="menu-item-card" data-category="main-course vegetarian">
+            <div class="menu-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=700&q=80" 
+                alt="Dal Makhani Royal" 
+                class="menu-card-img" 
+                loading="lazy"
+                onerror="this.src='https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=700&q=80';"
+              >
+              <div class="diet-tag veg-tag" title="Vegetarian"><span class="diet-indicator"></span></div>
+              <span class="category-badge">Main Course</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="card-head">
+                <h3 class="dish-name">Dal Makhani Royal</h3>
+                <span class="dish-price">₹280</span>
+              </div>
+              <p class="dish-desc">Slow-simmered black lentils and kidney beans cooked overnight with butter, ginger, garlic, and fresh cream.</p>
+              <div class="menu-card-action">
+                <button 
+                  class="btn btn-menu-order btn-order-wa" 
+                  data-dish="Dal Makhani Royal" 
+                  data-price="280"
+                  aria-label="Order Dal Makhani Royal on WhatsApp"
+                >
+                  <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 7: Hyderabadi Chicken Biryani -->
+          <article class="menu-item-card" data-category="biryanis">
+            <div class="menu-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=700&q=80" 
+                alt="Hyderabadi Chicken Dum Biryani" 
+                class="menu-card-img" 
+                loading="lazy"
+                onerror="this.src='https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=700&q=80';"
+              >
+              <div class="diet-tag non-veg-tag" title="Non-Vegetarian"><span class="diet-indicator"></span></div>
+              <span class="category-badge">Biryani</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="card-head">
+                <h3 class="dish-name">Chicken Dum Biryani</h3>
+                <span class="dish-price">₹380</span>
+              </div>
+              <p class="dish-desc">Authentic Hyderabadi layered basmati rice with marinated chicken, saffron, mint, and served with salan &amp; raita.</p>
+              <div class="menu-card-action">
+                <button 
+                  class="btn btn-menu-order btn-order-wa" 
+                  data-dish="Chicken Dum Biryani" 
+                  data-price="380"
+                  aria-label="Order Chicken Dum Biryani on WhatsApp"
+                >
+                  <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 8: Royal Veg Dum Biryani -->
+          <article class="menu-item-card" data-category="biryanis vegetarian">
+            <div class="menu-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=700&q=80" 
+                alt="Royal Veg Dum Biryani" 
+                class="menu-card-img" 
+                loading="lazy"
+                onerror="this.src='https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=700&q=80';"
+              >
+              <div class="diet-tag veg-tag" title="Vegetarian"><span class="diet-indicator"></span></div>
+              <span class="category-badge">Biryani</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="card-head">
+                <h3 class="dish-name">Royal Veg Dum Biryani</h3>
+                <span class="dish-price">₹290</span>
+              </div>
+              <p class="dish-desc">Aromatic fragrant basmati rice slow cooked with garden carrots, beans, paneer cubes, saffron, and whole spices.</p>
+              <div class="menu-card-action">
+                <button 
+                  class="btn btn-menu-order btn-order-wa" 
+                  data-dish="Royal Veg Dum Biryani" 
+                  data-price="290"
+                  aria-label="Order Royal Veg Dum Biryani on WhatsApp"
+                >
+                  <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 9: Special Mutton Rogan Josh -->
+          <article class="menu-item-card" data-category="main-course">
+            <div class="menu-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1545247181-516773cae754?auto=format&fit=crop&w=700&q=80" 
+                alt="Kashmiri Mutton Rogan Josh" 
+                class="menu-card-img" 
+                loading="lazy"
+                onerror="this.src='https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=700&q=80';"
+              >
+              <div class="diet-tag non-veg-tag" title="Non-Vegetarian"><span class="diet-indicator"></span></div>
+              <span class="category-badge">Main Course</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="card-head">
+                <h3 class="dish-name">Mutton Rogan Josh</h3>
+                <span class="dish-price">₹450</span>
+              </div>
+              <p class="dish-desc">Tender prime mutton braised in an authentic Kashmiri aromatic curry with ratan jot, fennel, and dry ginger.</p>
+              <div class="menu-card-action">
+                <button 
+                  class="btn btn-menu-order btn-order-wa" 
+                  data-dish="Mutton Rogan Josh" 
+                  data-price="450"
+                  aria-label="Order Mutton Rogan Josh on WhatsApp"
+                >
+                  <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 10: Tandoori Garlic Naan Basket -->
+          <article class="menu-item-card" data-category="main-course vegetarian">
+            <div class="menu-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=700&q=80" 
+                alt="Garlic Butter Naan Basket" 
+                class="menu-card-img" 
+                loading="lazy"
+                onerror="this.src='https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=700&q=80';"
+              >
+              <div class="diet-tag veg-tag" title="Vegetarian"><span class="diet-indicator"></span></div>
+              <span class="category-badge">Breads</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="card-head">
+                <h3 class="dish-name">Garlic Butter Naan</h3>
+                <span class="dish-price">₹85</span>
+              </div>
+              <p class="dish-desc">Fluffy leavened flatbread brushed with freshly chopped roasted garlic, coriander, and golden farm butter.</p>
+              <div class="menu-card-action">
+                <button 
+                  class="btn btn-menu-order btn-order-wa" 
+                  data-dish="Garlic Butter Naan" 
+                  data-price="85"
+                  aria-label="Order Garlic Butter Naan on WhatsApp"
+                >
+                  <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 11: Sizzling Chocolate Brownie -->
+          <article class="menu-item-card" data-category="desserts vegetarian">
+            <div class="menu-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=700&q=80" 
+                alt="Sizzling Chocolate Brownie" 
+                class="menu-card-img" 
+                loading="lazy"
+                onerror="this.src='https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=700&q=80';"
+              >
+              <div class="diet-tag veg-tag" title="Vegetarian"><span class="diet-indicator"></span></div>
+              <span class="category-badge">Dessert</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="card-head">
+                <h3 class="dish-name">Chocolate Brownie</h3>
+                <span class="dish-price">₹210</span>
+              </div>
+              <p class="dish-desc">Rich fudgy brownie served hot with a generous scoop of vanilla ice cream and streaming dark chocolate fudge.</p>
+              <div class="menu-card-action">
+                <button 
+                  class="btn btn-menu-order btn-order-wa" 
+                  data-dish="Chocolate Brownie" 
+                  data-price="210"
+                  aria-label="Order Chocolate Brownie on WhatsApp"
+                >
+                  <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 12: Shahi Gulab Jamun with Rabri -->
+          <article class="menu-item-card" data-category="desserts vegetarian">
+            <div class="menu-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1605197148818-a006c9b8cfeb?auto=format&fit=crop&w=700&q=80" 
+                alt="Shahi Gulab Jamun with Rabri" 
+                class="menu-card-img" 
+                loading="lazy"
+                onerror="this.src='https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=700&q=80';"
+              >
+              <div class="diet-tag veg-tag" title="Vegetarian"><span class="diet-indicator"></span></div>
+              <span class="category-badge">Dessert</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="card-head">
+                <h3 class="dish-name">Gulab Jamun with Rabri</h3>
+                <span class="dish-price">₹190</span>
+              </div>
+              <p class="dish-desc">Melt-in-mouth golden khoya dumplings immersed in rose-cardamom syrup and layered with slow-cooked thick rabri.</p>
+              <div class="menu-card-action">
+                <button 
+                  class="btn btn-menu-order btn-order-wa" 
+                  data-dish="Gulab Jamun with Rabri" 
+                  data-price="190"
+                  aria-label="Order Gulab Jamun with Rabri on WhatsApp"
+                >
+                  <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 13: Fresh Mint Lime Soda -->
+          <article class="menu-item-card" data-category="beverages vegetarian">
+            <div class="menu-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=700&q=80" 
+                alt="Fresh Mint Lime Soda" 
+                class="menu-card-img" 
+                loading="lazy"
+                onerror="this.src='https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=700&q=80';"
+              >
+              <div class="diet-tag veg-tag" title="Vegetarian"><span class="diet-indicator"></span></div>
+              <span class="category-badge">Beverage</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="card-head">
+                <h3 class="dish-name">Fresh Lime Soda</h3>
+                <span class="dish-price">₹120</span>
+              </div>
+              <p class="dish-desc">Zesty fresh lemon juice, sparkling soda, garden mint sprigs, rock salt, and sweet reduction for supreme freshness.</p>
+              <div class="menu-card-action">
+                <button 
+                  class="btn btn-menu-order btn-order-wa" 
+                  data-dish="Fresh Lime Soda" 
+                  data-price="120"
+                  aria-label="Order Fresh Lime Soda on WhatsApp"
+                >
+                  <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 14: Blue Orchid Signature Cooler -->
+          <article class="menu-item-card" data-category="beverages vegetarian">
+            <div class="menu-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=700&q=80" 
+                alt="Blue Orchid Signature Cooler" 
+                class="menu-card-img" 
+                loading="lazy"
+                onerror="this.src='https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=700&q=80';"
+              >
+              <div class="diet-tag veg-tag" title="Vegetarian"><span class="diet-indicator"></span></div>
+              <span class="category-badge">Mocktail</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="card-head">
+                <h3 class="dish-name">Blue Orchid Cooler</h3>
+                <span class="dish-price">₹170</span>
+              </div>
+              <p class="dish-desc">Our house special mocktail with blue curacao notes, crushed ice, lime cordial, and sparkling fizz.</p>
+              <div class="menu-card-action">
+                <button 
+                  class="btn btn-menu-order btn-order-wa" 
+                  data-dish="Blue Orchid Cooler" 
+                  data-price="170"
+                  aria-label="Order Blue Orchid Cooler on WhatsApp"
+                >
+                  <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Menu Bottom Note -->
+        <div class="menu-custom-callout">
+          <div class="callout-content">
+            <i class="fa-solid fa-bell-concierge"></i>
+            <div>
+              <strong>Looking for customized party catering or bulk family orders?</strong>
+              <p>Chat directly with our kitchen manager to customize dishes, spice levels, and special event setups.</p>
+            </div>
+          </div>
+          <button class="btn btn-primary btn-sm" id="btnCustomEnquiry">
+            <i class="fa-brands fa-whatsapp"></i> Enquire for Catering
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Gallery Section -->
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag"><i class="fa-solid fa-camera"></i> Visual Tour</div>
+          <h2 class="section-title">The Blue Orchid Experience</h2>
+          <p class="section-subtitle">
+            Take a visual tour through our ambient dining rooms, culinary preparations, and unforgettable guest moments. Click any image to expand.
+          </p>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid" id="galleryGrid">
+          
+          <div class="gallery-item" data-index="0" data-caption="Warm &amp; Elegant Dining Ambiance">
+            <img 
+              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" 
+              alt="Warm and elegant dining hall ambiance at Blue Orchid" 
+              loading="lazy"
+            >
+            <div class="gallery-overlay">
+              <span class="overlay-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+              <span class="overlay-title">Dining Room Ambiance</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-index="1" data-caption="Chef's Masterful Tandoor Plating">
+            <img 
+              src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=80" 
+              alt="Chef expertly plating fine dining dishes" 
+              loading="lazy"
+            >
+            <div class="gallery-overlay">
+              <span class="overlay-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+              <span class="overlay-title">Chef Craftsmanship</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-index="2" data-caption="Hyderabadi Dum Biryani Feast">
+            <img 
+              src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=800&q=80" 
+              alt="Aromatic Hyderabadi Dum Biryani pot" 
+              loading="lazy"
+            >
+            <div class="gallery-overlay">
+              <span class="overlay-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+              <span class="overlay-title">Royal Biryani Spread</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-index="3" data-caption="Reserved Table Setup with Candle Ambiance">
+            <img 
+              src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=800&q=80" 
+              alt="Luxury table arrangement ready for guests" 
+              loading="lazy"
+            >
+            <div class="gallery-overlay">
+              <span class="overlay-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+              <span class="overlay-title">Private Table Setup</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-index="4" data-caption="Refreshing Mocktails &amp; Artisanal Drinks">
+            <img 
+              src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=800&q=80" 
+              alt="Chilled signature mocktails with fresh garnishes" 
+              loading="lazy"
+            >
+            <div class="gallery-overlay">
+              <span class="overlay-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+              <span class="overlay-title">Handcrafted Beverages</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-index="5" data-caption="Delightful Family Feast Platter">
+            <img 
+              src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80" 
+              alt="Lavish dining table with curries, naans, and rice" 
+              loading="lazy"
+            >
+            <div class="gallery-overlay">
+              <span class="overlay-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+              <span class="overlay-title">Lavish Dining Feast</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-index="6" data-caption="Clay Oven Tandoori Mastercraft">
+            <img 
+              src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=800&q=80" 
+              alt="Freshly tandoor-roasted paneer tikka" 
+              loading="lazy"
+            >
+            <div class="gallery-overlay">
+              <span class="overlay-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+              <span class="overlay-title">Tandoor Specialties</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-index="7" data-caption="Warm Hospitality &amp; Memorable Gatherings">
+            <img 
+              src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80" 
+              alt="Cozy dining corner with soft warm lighting" 
+              loading="lazy"
+            >
+            <div class="gallery-overlay">
+              <span class="overlay-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+              <span class="overlay-title">Evening Atmosphere</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Lightbox Modal -->
+    <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Image Lightbox Viewer" style="display: none;">
+      <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+      <div class="lightbox-content">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close Lightbox">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <button class="lightbox-nav-btn btn-prev" id="lightboxPrev" aria-label="Previous Image">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <div class="lightbox-figure">
+          <img src="" alt="" id="lightboxImg" class="lightbox-image">
+          <div class="lightbox-caption-bar">
+            <span id="lightboxCaption" class="lightbox-caption-text"></span>
+            <span id="lightboxCounter" class="lightbox-counter">1 / 8</span>
+          </div>
+        </div>
+        <button class="lightbox-nav-btn btn-next" id="lightboxNext" aria-label="Next Image">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- 9. Customer Reviews Section -->
+    <section class="section reviews-section" id="reviews">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag"><i class="fa-solid fa-comments"></i> Guest Experiences</div>
+          <h2 class="section-title">Our Guests, Our Happiness.</h2>
+          <p class="section-subtitle">
+            Warm feedback from families, food enthusiasts, and celebration hosts who have visited our tables.
+          </p>
+        </div>
+
+        <div class="reviews-grid">
+          <!-- Review 1 -->
+          <article class="review-card">
+            <div class="review-rating" aria-label="5 out of 5 stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-text">
+              “The Hyderabadi Biryani and Butter Chicken here are truly phenomenal! The flavours are so rich yet balanced, and the meat was cooked to tender perfection. The ambient blue-and-wood decor creates such a calming atmosphere for our family dinners.”
+            </p>
+            <div class="review-author">
+              <div class="author-avatar">
+                <span>RK</span>
+              </div>
+              <div class="author-info">
+                <h4 class="author-name">Rahul Kulkarni</h4>
+                <span class="author-role">Family Dinner Guest &bull; Regular Visitor</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Review 2 -->
+          <article class="review-card">
+            <div class="review-rating" aria-label="5 out of 5 stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-text">
+              “We celebrated my mother’s 60th birthday at Blue Orchid and the staff went above and beyond to make it memorable. The Paneer Tikka starter, Dal Makhani, and hot sizzling brownies were the stars of the evening! Highly recommended.”
+            </p>
+            <div class="review-author">
+              <div class="author-avatar avatar-purple">
+                <span>SS</span>
+              </div>
+              <div class="author-info">
+                <h4 class="author-name">Sneha Sharma</h4>
+                <span class="author-role">Birthday Celebration Host</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Review 3 -->
+          <article class="review-card">
+            <div class="review-rating" aria-label="5 out of 5 stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-text">
+              “As someone who is very particular about food hygiene and spice authenticity, Blue Orchid blew me away. The staff was polite, reservations were seamlessly managed, and every dish arrived piping hot. A truly 5-star experience.”
+            </p>
+            <div class="review-author">
+              <div class="author-avatar avatar-teal">
+                <span>AM</span>
+              </div>
+              <div class="author-info">
+                <h4 class="author-name">Arjun Mehta</h4>
+                <span class="author-role">Food Blogger &amp; Enthusiast</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Sample Disclaimer -->
+        <p class="demo-review-disclaimer text-center">
+          <i class="fa-solid fa-circle-info"></i> Note: Testimonials displayed above represent fictional demo reviews created for presentation purposes by NRK Digitals.
+        </p>
+      </div>
+    </section>
+
+    <!-- 10. Table Reservation Section -->
+    <section class="section reservation-section" id="reservation">
+      <div class="container">
+        <div class="reservation-box-wrapper">
+          <div class="reservation-intro-col">
+            <div class="section-tag"><i class="fa-regular fa-calendar-check"></i> Book Your Table</div>
+            <h2 class="section-title">Reserve Your Table Online</h2>
+            <p class="lead-text">
+              Planning a family lunch, romantic evening, or friendly celebration? Reserve your table in advance and let our team prepare an unforgettable culinary setting.
+            </p>
+
+            <div class="reservation-perks">
+              <div class="perk-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Zero reservation fees or hidden deposit</span>
+              </div>
+              <div class="perk-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Instant WhatsApp confirmation assistance</span>
+              </div>
+              <div class="perk-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Special seating for birthdays &amp; anniversaries</span>
+              </div>
+            </div>
+
+            <div class="reservation-help-card">
+              <div class="help-card-icon"><i class="fa-solid fa-headset"></i></div>
+              <div class="help-card-text">
+                <strong>Need immediate assistance?</strong>
+                <p>Call our reception directly at <a href="tel:+919876543210">+91 98765 43210</a></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Reservation Form Column -->
+          <div class="reservation-form-col">
+            <form class="reservation-form" id="reservationForm" novalidate>
+              <div class="form-title-wrap">
+                <h3>Table Reservation Request</h3>
+                <p>Fill in your details below to place a reservation request.</p>
+              </div>
+
+              <!-- Form Alert Messages -->
+              <div class="form-alert form-alert-error" id="formErrorAlert" style="display: none;" role="alert">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                <span id="formErrorMessage">Please check the required fields.</span>
+              </div>
+
+              <div class="form-grid">
+                <!-- Name Field -->
+                <div class="form-group">
+                  <label for="resName">Full Name <span class="required">*</span></label>
+                  <div class="input-with-icon">
+                    <i class="fa-regular fa-user"></i>
+                    <input type="text" id="resName" name="name" class="form-control" placeholder="e.g. Vikram Malhotra" required>
+                  </div>
+                  <span class="field-error" id="nameError">Please enter your name.</span>
+                </div>
+
+                <!-- Phone Field -->
+                <div class="form-group">
+                  <label for="resPhone">Phone Number <span class="required">*</span></label>
+                  <div class="input-with-icon">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="tel" id="resPhone" name="phone" class="form-control" placeholder="e.g. 9876543210 (10 digits)" required>
+                  </div>
+                  <span class="field-error" id="phoneError">Please enter a valid 10-digit phone number.</span>
+                </div>
+
+                <!-- Email Field (Optional) -->
+                <div class="form-group">
+                  <label for="resEmail">Email Address <span class="optional">(Optional)</span></label>
+                  <div class="input-with-icon">
+                    <i class="fa-regular fa-envelope"></i>
+                    <input type="email" id="resEmail" name="email" class="form-control" placeholder="e.g. vikram@example.com">
+                  </div>
+                  <span class="field-error" id="emailError">Please enter a valid email address.</span>
+                </div>
+
+                <!-- Guests Count Field -->
+                <div class="form-group">
+                  <label for="resGuests">Number of Guests <span class="required">*</span></label>
+                  <div class="input-with-icon">
+                    <i class="fa-solid fa-user-group"></i>
+                    <select id="resGuests" name="guests" class="form-control" required>
+                      <option value="">Select Guests</option>
+                      <option value="1 Guest">1 Guest</option>
+                      <option value="2 Guests" selected>2 Guests (Couple / Pair)</option>
+                      <option value="3-4 Guests">3 – 4 Guests (Small Family)</option>
+                      <option value="5-8 Guests">5 – 8 Guests (Family &amp; Friends)</option>
+                      <option value="9+ Guests">9+ Guests (Party / Large Group)</option>
+                    </select>
+                  </div>
+                  <span class="field-error" id="guestsError">Please select number of guests.</span>
+                </div>
+
+                <!-- Reservation Date Field -->
+                <div class="form-group">
+                  <label for="resDate">Reservation Date <span class="required">*</span></label>
+                  <div class="input-with-icon">
+                    <i class="fa-regular fa-calendar"></i>
+                    <input type="date" id="resDate" name="date" class="form-control" required>
+                  </div>
+                  <span class="field-error" id="dateError">Please select today or a future date.</span>
+                </div>
+
+                <!-- Reservation Time Field -->
+                <div class="form-group">
+                  <label for="resTime">Preferred Time Slot <span class="required">*</span></label>
+                  <div class="input-with-icon">
+                    <i class="fa-regular fa-clock"></i>
+                    <select id="resTime" name="time" class="form-control" required>
+                      <option value="">Select Time Slot</option>
+                      <optgroup label="Lunch Hours">
+                        <option value="12:00 PM">12:00 PM</option>
+                        <option value="12:30 PM">12:30 PM</option>
+                        <option value="01:00 PM">01:00 PM</option>
+                        <option value="01:30 PM">01:30 PM</option>
+                        <option value="02:00 PM">02:00 PM</option>
+                        <option value="02:30 PM">02:30 PM</option>
+                      </optgroup>
+                      <optgroup label="Dinner Hours">
+                        <option value="07:00 PM">07:00 PM</option>
+                        <option value="07:30 PM">07:30 PM</option>
+                        <option value="08:00 PM" selected>08:00 PM</option>
+                        <option value="08:30 PM">08:30 PM</option>
+                        <option value="09:00 PM">09:00 PM</option>
+                        <option value="09:30 PM">09:30 PM</option>
+                        <option value="10:00 PM">10:00 PM</option>
+                      </optgroup>
+                    </select>
+                  </div>
+                  <span class="field-error" id="timeError">Please select your preferred time slot.</span>
+                </div>
+              </div>
+
+              <!-- Special Requests (Optional) -->
+              <div class="form-group full-width">
+                <label for="resNotes">Special Requests / Occasion <span class="optional">(Optional)</span></label>
+                <textarea id="resNotes" name="notes" class="form-control" rows="3" placeholder="e.g. Birthday setup, high chair for toddler, window seating, less spicy food preference..."></textarea>
+              </div>
+
+              <!-- Demo Disclaimer Reminder -->
+              <div class="form-demo-note">
+                <i class="fa-solid fa-info-circle"></i>
+                <small>Notice: This is a demo reservation request. Submitting does not automatically book a table until confirmed by the restaurant team.</small>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="form-actions-group">
+                <button type="submit" class="btn btn-primary btn-submit-res" id="btnSubmitRes">
+                  <i class="fa-solid fa-paper-plane"></i> Submit Reservation Request
+                </button>
+                <button type="button" class="btn btn-outline-wa" id="btnDirectWaConfirm">
+                  <i class="fa-brands fa-whatsapp"></i> Confirm via WhatsApp
+                </button>
+              </div>
+            </form>
+
+            <!-- Success Feedback Modal / Card -->
+            <div class="reservation-success-card" id="reservationSuccessCard" style="display: none;">
+              <div class="success-icon-wrap">
+                <i class="fa-solid fa-circle-check"></i>
+              </div>
+              <h3>Reservation Request Received!</h3>
+              <p class="success-msg-lead">
+                Thank you, <strong id="successCustomerName">Guest</strong>! Your table request has been received.
+              </p>
+              
+              <div class="summary-details-box" id="reservationSummaryBox">
+                <!-- Injected via JS -->
+              </div>
+
+              <div class="confirmation-notice-box">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                <p>
+                  <strong>Important:</strong> As this is a demo showcase, reservations are not finalized into an automated database. Please click below to send your details directly to the restaurant on WhatsApp to guarantee confirmation!
+                </p>
+              </div>
+
+              <div class="success-action-btns">
+                <a href="#" class="btn btn-whatsapp btn-large" id="btnModalWaConfirm" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-whatsapp"></i> Send Details on WhatsApp
+                </a>
+                <button class="btn btn-outline btn-sm" id="btnNewReservation">
+                  <i class="fa-solid fa-rotate-left"></i> Book Another Table
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 12. Contact and Location Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag"><i class="fa-solid fa-location-dot"></i> Find &amp; Contact Us</div>
+          <h2 class="section-title">Visit Blue Orchid Restaurant</h2>
+          <p class="section-subtitle">
+            We are conveniently located in the heart of town. Drop by for dining or get in touch for takeout orders and table queries.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Cards -->
+          <div class="contact-cards-col">
+            <!-- Address Card -->
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-card-body">
+                <h3>Our Location (Demo)</h3>
+                <p class="contact-detail">
+                  Plot 42, Orchid Boulevard, Near Grand Avenue Mall,<br>
+                  Bandra West, Mumbai 400050, Maharashtra, India.
+                </p>
+                <span class="badge-fictional"><i class="fa-solid fa-circle-info"></i> Clearly marked fictional demo address</span>
+              </div>
+            </div>
+
+            <!-- Opening Hours Card -->
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+              <div class="contact-card-body">
+                <h3>Opening Hours</h3>
+                <p class="contact-detail">
+                  <strong>Monday – Friday:</strong> 11:30 AM – 03:30 PM | 06:30 PM – 11:00 PM<br>
+                  <strong>Saturday – Sunday:</strong> 11:30 AM – 11:30 PM (All Day Dining)
+                </p>
+                <span class="status-open-pill"><span class="pulse-dot"></span> Kitchen Open Today</span>
+              </div>
+            </div>
+
+            <!-- Direct Contact Card -->
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <i class="fa-solid fa-phone-volume"></i>
+              </div>
+              <div class="contact-card-body">
+                <h3>Reservations &amp; Enquiries</h3>
+                <p class="contact-detail">
+                  <strong>Phone:</strong> <a href="tel:+919876543210">+91 98765 43210</a> (Demo Placeholder)<br>
+                  <strong>Email:</strong> <a href="mailto:info@blueorchidrestaurant-demo.com">info@blueorchidrestaurant-demo.com</a>
+                </p>
+                
+                <div class="contact-button-row">
+                  <a href="tel:+919876543210" class="btn btn-outline-primary btn-sm">
+                    <i class="fa-solid fa-phone"></i> Call Now
+                  </a>
+                  <button class="btn btn-whatsapp btn-sm" id="btnContactWa">
+                    <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stylized Interactive Map Card -->
+          <div class="contact-map-col">
+            <div class="map-card-wrapper">
+              <div class="map-visual-placeholder">
+                <div class="map-overlay-content">
+                  <div class="map-pin-pulse">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <h3>Blue Orchid Restaurant</h3>
+                  <p>Orchid Boulevard &bull; Prime Dining Hub</p>
+                  <span class="map-demo-tag">Interactive Map Demonstration</span>
+                  <a 
+                    href="https://maps.google.com/?q=Bandra+West+Mumbai" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    class="btn btn-primary btn-sm btn-map-directions"
+                  >
+                    <i class="fa-solid fa-diamond-turn-right"></i> Get Directions on Google Maps
+                  </a>
+                </div>
+              </div>
+              <div class="map-footer-note">
+                <i class="fa-solid fa-car"></i> Valet parking &amp; easy street access available for all dining guests.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 13. Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content-grid">
+      <!-- Col 1: About Brand -->
+      <div class="footer-col footer-col-brand">
+        <a href="#home" class="brand-logo footer-logo">
+          <span class="logo-icon-wrap">
+            <i class="fa-solid fa-utensils"></i>
+          </span>
+          <div class="logo-text-group">
+            <span class="logo-title">Blue Orchid</span>
+            <span class="logo-subtitle">RESTAURANT &amp; DINING</span>
+          </div>
+        </a>
+        <p class="footer-bio">
+          Crafting delightful memories through authentic recipes, fresh seasonal ingredients, and heartfelt hospitality.
+        </p>
+        <div class="footer-social-links">
+          <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="social-link" aria-label="Twitter / X"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" class="social-link footer-wa-link" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <!-- Col 2: Quick Links -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Quick Links</h4>
+        <ul class="footer-links-list">
+          <li><a href="#home"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+          <li><a href="#about"><i class="fa-solid fa-chevron-right"></i> About Us</a></li>
+          <li><a href="#specials"><i class="fa-solid fa-chevron-right"></i> Chef's Specials</a></li>
+          <li><a href="#menu"><i class="fa-solid fa-chevron-right"></i> Food Menu</a></li>
+          <li><a href="#gallery"><i class="fa-solid fa-chevron-right"></i> Photo Gallery</a></li>
+          <li><a href="#reviews"><i class="fa-solid fa-chevron-right"></i> Guest Reviews</a></li>
+          <li><a href="#reservation"><i class="fa-solid fa-chevron-right"></i> Table Reservation</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 3: Hours & Dining -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Dining Hours</h4>
+        <div class="footer-hours-block">
+          <div class="hour-row">
+            <span class="day">Mon – Fri:</span>
+            <span class="time">11:30 AM – 11:00 PM</span>
+          </div>
+          <div class="hour-row">
+            <span class="day">Sat – Sun:</span>
+            <span class="time">11:30 AM – 11:30 PM</span>
+          </div>
+          <div class="hour-row">
+            <span class="day">Kitchen Last Order:</span>
+            <span class="time">10:30 PM</span>
+          </div>
+        </div>
+        <div class="footer-services-list">
+          <span><i class="fa-solid fa-check"></i> Dine-In</span> &bull; 
+          <span><i class="fa-solid fa-check"></i> Takeaway</span> &bull; 
+          <span><i class="fa-solid fa-check"></i> Party Catering</span>
+        </div>
+      </div>
+
+      <!-- Col 4: Contact & Customization Info -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Contact &amp; Location</h4>
+        <p class="footer-contact-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Plot 42, Orchid Boulevard, Bandra West, Mumbai 400050 (Demo)</span>
+        </p>
+        <p class="footer-contact-item">
+          <i class="fa-solid fa-phone"></i>
+          <a href="tel:+919876543210">+91 98765 43210</a>
+        </p>
+        <p class="footer-contact-item">
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:info@blueorchidrestaurant-demo.com">info@blueorchidrestaurant-demo.com</a>
+        </p>
+        <div class="footer-cta-box">
+          <a href="#reservation" class="btn btn-outline-white btn-sm">
+            <i class="fa-regular fa-calendar-check"></i> Reserve Table
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Copyright & Agency Credits -->
+    <div class="footer-bottom-bar">
+      <div class="container footer-bottom-container">
+        <p class="copyright-text">
+          &copy; 2026 Blue Orchid Restaurant. All rights reserved. (Fictional Demo Website)
+        </p>
+        <div class="agency-credit-pill">
+          <span>Website demo crafted with excellence by </span>
+          <a href="https://nrkdigitals.com/" target="_blank" rel="noopener noreferrer" class="agency-link">
+            <strong>NRK Digitals</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 14. Floating WhatsApp Action Button -->
+  <aside class="floating-whatsapp-container" aria-label="Direct WhatsApp Contact">
+    <div class="wa-tooltip" id="waTooltip">Chat with us on WhatsApp</div>
+    <a 
+      href="#" 
+      class="floating-whatsapp-btn" 
+      id="floatingWaBtn" 
+      aria-label="Contact Blue Orchid Restaurant on WhatsApp"
+      target="_blank" 
+      rel="noopener noreferrer"
+    >
+      <span class="wa-pulse-ring"></span>
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+  </aside>
+
+  <!-- 15. Back to Top Button -->
+  <button class="back-to-top-btn" id="backToTopBtn" aria-label="Scroll back to top of page" style="display: none;">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Vanilla JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
